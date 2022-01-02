@@ -1,0 +1,21 @@
+// Aqui van los imports
+@import "core/variables";
+@import "core/reset";
+
+.main_section {
+  display: flex;
+  width: 85vw;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-container;
+  padding: 15px;
+}
+.main_title {
+  font-family: $font-title2;
+  font-size: 18px;
+}
+.main_text {
+  font-family: $font-text;
+  font-size: 12px;
+}

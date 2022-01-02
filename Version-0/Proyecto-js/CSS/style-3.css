@@ -1,0 +1,20 @@
+body{
+    background-image: url("../imagenes/fondo4.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+  background: #61866a;
+}
+#menu{
+  background: #359059;
+}
+
+#menu ul li:hover{
+    background: #087c3b
+}
+.button{
+  background: #61866a;
+}

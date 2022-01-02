@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es" >
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <!--Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="/home/sheila/Escritorio/Curso programación/javascrip/Proyecto-js/CSS/style-aboutme.css" />
+
+    <!--jQuery -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="JS/jquey-ui-1.12.1/jQuery/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="JS/jquery-ui-1.12.1/jquery-ui.structure.min.css"/>
+    <link rel="stylesheet" href="JS/jquery-ui-1.12.1/jquery-ui.theme.min.css"/>
+    <script text="javaScript" src="JS/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+    <!--Plugin validación-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <!-- mis Scripts-->
+    <script type="text/javascript" src="JS/main-2.js"></script>
+
+  </head>
+  <body>
+      <section id="global">
+      <!--  Cabecera -->
+        <header>
+            <div id="logo">
+              <h1> Proyecto linces Ibericos</h1>
+              </div>
+              <div class="clearfix"></div>
+              <nav id="menu">
+                  <ul >
+                      <li><a href="index.html">INICIO</a></li>
+
+                      <li><a href="contacto.html">CONTACTO</a></li>
+                      <li><a href="about-me.html">SOBRE MI</a></li>
+
+                  </ul>
+              </nav>
+        </header>
+
+      <!--Contenido -->
+          <section id="content">
+          <div id="box">
+              <!-- Cformulario de contacto-->
+              <h2>Contacto</h2>
+              <br>
+              <br>
+              <form action="" method="Post" id="form_contacto" >
+              <label for="name">Nombre</label>
+              <input type="text" name="name" data-validation="alphanumeric" />
+              <br>
+              <br>
+              <label for="surname">Apellidos</label>
+              <input type="text" name="surname" data-validation="alphanumeric"/>
+              <br>
+              <br>
+              <label >Email</label>
+              <input type="email" name="email" data-validation="email"/>
+              <br>
+              <br>
+              <label for="sex">Nombre</label>
+              <select name="sex" data-validation="required">
+                <option value="men">Hombre</option>
+                <option value="women">Mujer</option>
+              </select>
+              <br>
+              <br>
+              <label for="date">Fecha de nacimiento</label>
+              <input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy" />
+              <br>
+              <br>
+              <label for="years">Edad</label>
+              <input type="number" name="years" data-validation="number" />
+              <br>
+              <br>
+              <input type="submit" value="Enviar" />
+
+              </form>
+              </div>
+              <div class="clearfix"></div>
+      </section>
+
+    </section>
+
+    <footer>
+        Proyecto Sheila Arenillas &copy;
+
+
+      </footer>
+  </body>
+</html>

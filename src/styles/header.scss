@@ -1,0 +1,11 @@
+@import "core/variables";
+@import "core/reset";
+
+.title {
+  font-family: $font-title;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+
+  color: $color-green;
+  background-color: $color-brown-light;
+}
